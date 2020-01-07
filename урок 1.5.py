@@ -1,4 +1,4 @@
-import request
+import requests
 import json
 
 url = 'http://www.cbr-xml-daily.ru/daily_jsonp.js'
