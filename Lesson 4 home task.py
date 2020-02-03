@@ -5,14 +5,24 @@
 import random
 
 name = ('маша','паша','женя','леша','кирилл','вика','марина','дима','сергей','антон','борис','саша','вика','олег','даша','наташа','вова','аркадий','святослав')
-def name_list(name, 100)
-    return random(name)
+
+def name_list(name, n=100):
+    return random.choices(name, k=n)
 print(name_list(name))
 
+
 # 2. Напишите функцию вывода самого частого имени из списка на выходе функции F;
-#
+max_list = max(name_list(name))
+print(max_list)
+
 # 3. Напишите функцию вывода самой редкой буквы, с которого начинаются имена в списке на выходе функции F.
-#
+
+def min_word():
+    return
+min_ward = name_list(name)
+m_w = min_ward[0:5]
+print(m_w)
+
 # PRO:
 #
 # LIGHT +
