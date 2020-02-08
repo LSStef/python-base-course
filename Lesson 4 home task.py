@@ -16,12 +16,11 @@ max_list = max(name_list(name))
 print(max_list)
 
 # 3. Напишите функцию вывода самой редкой буквы, с которого начинаются имена в списке на выходе функции F.
-
-def min_word():
-    return
 min_ward = name_list(name)
-m_w = min_ward[0:5]
-print(m_w)
+latter = list(map(lambda x: x[0], min_ward))
+min_latter=min(latter)
+print(min_latter)
+
 
 # PRO:
 #
